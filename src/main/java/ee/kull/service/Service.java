@@ -1,0 +1,20 @@
+package ee.kull.service;
+
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public abstract class Service {
+
+    protected Stage stage;
+    protected Scene scene;
+    protected Parent root;
+
+
+
+    public void exit() {  //выход из программы
+        System.exit(0);
+    }
+
+
+}

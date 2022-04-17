@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="747.0" style="-fx-background-color: ffe8d6;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ee.kull.controllers.ControllerSignUp">
+    <children>
+        <AnchorPane layoutX="200.0" prefHeight="68.0" prefWidth="548.0" style="-fx-background-color: fbf8cc;">
+            <effect>
+                <DropShadow color="#0000001f" />
+            </effect>
+        </AnchorPane>
+        <AnchorPane prefHeight="460.0" prefWidth="200.0" style="-fx-background-color: b8b8ff;">
+            <effect>
+                <DropShadow color="#00000040" />
+            </effect>
+            <children>
+                <Text fill="#464646" layoutX="51.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quiz App" textAlignment="CENTER" wrappingWidth="100.40002888441086">
+                    <font>
+                        <Font name="Montserrat Bold" size="11.0" />
+                    </font>
+                </Text>
+                <Text fill="#3c3c3c" layoutX="64.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TestMe">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Text>
+                <Separator focusTraversable="false" layoutX="14.0" layoutY="110.0" prefHeight="3.0" prefWidth="175.0" style="-fx-background-color: #ccc; -fx-border-style: solid; -fx-border-color: #333;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+                <Button fx:id="close" layoutX="14.0" layoutY="410.0" mnemonicParsing="false" onAction="#exit" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: c1121f; -fx-border-color: c1121f; -fx-border-radius: 5px;" text="Close" textFill="WHITE">
+                    <font>
+                        <Font name="Montserrat Regular" size="13.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Separator focusTraversable="false" layoutX="14.0" layoutY="396.0" prefHeight="3.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-style: solid; -fx-border-color: #ccc; -fx-border-width: 0;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+                <ImageView fx:id="java_pic" fitHeight="196.0" fitWidth="121.0" focusTraversable="true" layoutX="40.0" layoutY="151.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image1.png" />
+                    </image>
+               <cursor>
+                  <Cursor fx:constant="N_RESIZE" />
+               </cursor>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Text fill="#434343" layoutX="304.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java programming test" textAlignment="CENTER" wrappingWidth="340.9090576171875">
+            <font>
+                <Font name="Segoe Fluent Icons" size="29.0" />
+            </font>
+        </Text>
+        <Text fx:id="question_text" fill="#3b3b3b" layoutX="238.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please, enter your username and password" textAlignment="CENTER" wrappingWidth="494.8199462890625">
+            <font>
+                <Font name="System Italic" size="17.0" />
+            </font>
+        </Text>
+        <Button fx:id="signup" blendMode="SRC_ATOP" graphicTextGap="15.0" layoutX="386.0" layoutY="377.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: b74f6f; -fx-border-color: b74f6f; -fx-border-radius: 5px;" text="SIGN UP" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <PasswordField fx:id="password" layoutX="370.0" layoutY="289.0" prefHeight="30.0" prefWidth="208.0" promptText="Password" />
+        <TextField fx:id="username" layoutX="370.0" layoutY="230.0" prefHeight="29.0" prefWidth="208.0" promptText="Username" />
+    </children>
+</AnchorPane>
