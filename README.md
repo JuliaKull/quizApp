@@ -26,10 +26,6 @@
 ![DB](https://user-images.githubusercontent.com/102060016/163794386-4275b90c-653d-402a-85f1-6cc73b87eccd.jpg)
 <br/>
 
-## Notice
-- The application is made for educational purposes;
-- Feel free to import the project for your educational purpose;
-- For any details or query fill free to email me – 7102777@mail.ru
-<br/>
+
 
 
